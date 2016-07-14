@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:main="http://schemas.android.com/apk/res-auto"
+    tools:context=".Main">
+
+    <item android:id="@+id/opcionbuscar"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/buscar"
+        android:orderInCategory="1"
+        main:showAsAction="ifRoom"/>
+    <item android:id="@+id/opcionamarillo"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="@string/camarillo"
+        android:orderInCategory="2"
+        main:showAsAction="never"/>
+    <item android:id="@+id/opcionverde"
+        android:icon="@android:drawable/ic_dialog_map"
+        android:title="@string/cverde"
+        android:orderInCategory="3"
+        main:showAsAction="never"/>
+
+</menu>
